@@ -16,7 +16,9 @@ speak = wincl.Dispatch("SAPI.SpVoice")
 r = sr.Recognizer()
 with sr.Microphone() as source:
     speak.Speak("Say something!")
+    print("Listening...")
     audio = r.listen(source)
+    print("thinking...")
 
 # recognize speech using Google Speech Recognition
 try:
