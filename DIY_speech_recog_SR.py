@@ -2,7 +2,7 @@
 #This source code comes from the project: https://github.com/Uberi/speech_recognition/blob/master/examples/microphone_recognition.py
 #For reference: https://pypi.org/project/SpeechRecognition/
 
-#You'll need to run 'pip install SpeechRecognition' to make this work
+#You'll need to run 'pip install SpeechRecognition' and 'pip install PyAudio' to make this work
 
 # NOTE: this example requires PyAudio because it uses the Microphone class
 import win32com.client as wincl
